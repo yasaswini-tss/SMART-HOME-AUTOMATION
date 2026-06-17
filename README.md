@@ -1,24 +1,35 @@
-# Smart Home Automation System
+# 🏠 IoT-Based Smart Home Automation System
 
-## Overview
-A Smart Home Automation System built using ESP32 and DHT22 in Wokwi Simulator.
+## 📌 Overview
+This project demonstrates a Smart Home Automation System using ESP32 and DHT22 Temperature Sensor in Wokwi Simulator.
 
-## Features
+## 🚀 Features
 - Real-time temperature monitoring
 - Automatic fan control
 - LED-based appliance simulation
 - Serial monitor output
+- IoT automation logic
 
-## Components
+## 🛠 Components Used
 - ESP32
 - DHT22 Sensor
 - LEDs
 - Resistors
+- Wokwi Simulator
 
-## Working
-When temperature exceeds 30°C, the fan LED turns ON automatically. When temperature falls below 30°C, the fan LED turns OFF.
+## ⚙️ Working
+The ESP32 continuously reads temperature from the DHT22 sensor.
 
-## Author
-Yasaswini Sai Sri
-# SMART-HOME-AUTOMATION
-Iot-Based Smart Home Automation System using ESP32 and DHT22
+- Temperature > 30°C → Fan ON
+- Temperature ≤ 30°C → Fan OFF
+
+## 💻 Technologies Used
+- ESP32
+- Embedded C++
+- IoT
+- Wokwi Simulation
+- Sensor Interfacing
+
+## 👩‍💻 Author
+Yasaswini Sai Sri Theerdhala
+B.Tech (ECE)
